@@ -1,4 +1,4 @@
-import { height } from '@mui/system'
+
 import React from 'react'
 
 function FigmaNavbar() {
