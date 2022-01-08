@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './components/NavBar';
+import Main from './components/Main';
+import FigmaContainer from './components/FigmaContainer';
+import SideBarContainer from './components/SideBarContainer';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{position:'fixed'}}> 
+      <Header />
+      <NavBar />
+      </div>
+
+      <Main />
+      <div style={{ display: 'flex', backgroundColor: 'lightgrey', width: '100vw', margin: 'auto' }}>
+
+        <FigmaContainer />
+        <SideBarContainer />
+      </div>
     </div>
   );
 }
