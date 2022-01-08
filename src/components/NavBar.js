@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import home from '../assets/icons8-home.svg'
 import network from '../assets/network.png'
 import myprofile from '../assets/myprofile.png'
@@ -23,7 +23,7 @@ const selected = {
 }
 
 function NavBar(props) {
-    const [text, setText] = useState("")
+ 
     return (
         <div style={{
             backgroundColor: 'white',

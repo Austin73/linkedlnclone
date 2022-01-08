@@ -56,7 +56,7 @@ function Sidebar() {
                 <div style={styles.contentContainer}>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGJYECdovsA3w/company-logo_100_100/0/1635774141948?e=1648080000&amp;v=beta&amp;t=TFr3CYC3vQyekbLqi0iyciwnIEuv7tKImBNnYmDhNxA" loading="lazy" height="48" alt="" id="ember224" class="ivm-view-attr__img--centered EntityPhoto-square-3  lazy-image ember-view" />
+                            <img width="48" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGJYECdovsA3w/company-logo_100_100/0/1635774141948?e=1648080000&amp;v=beta&amp;t=TFr3CYC3vQyekbLqi0iyciwnIEuv7tKImBNnYmDhNxA" loading="lazy" height="48" alt='text'/>
                         </div>
 
                         <div>
@@ -71,14 +71,14 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
 
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={sketch1} />
+                            <img width="48" src={sketch1} alt='text'/>
                         </div>
 
                         <div>
@@ -93,13 +93,13 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={dribble} loading="lazy" height="48" alt="" id="ember224" class="ivm-view-attr__img--centered EntityPhoto-square-3  lazy-image ember-view" />
+                            <img width="48" src={dribble} loading="lazy" height="48" alt='text'/>
                         </div>
 
                         <div>
@@ -114,13 +114,13 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={behance} loading="lazy" height="48" alt="" id="ember224" class="ivm-view-attr__img--centered EntityPhoto-square-3  lazy-image ember-view" />
+                            <img width="48" src={behance} loading="lazy" height="48"  alt='text'/>
                         </div>
 
                         <div>
@@ -135,13 +135,13 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={overlap} loading="lazy" height="48" alt="" id="ember224" class="ivm-view-attr__img--centered EntityPhoto-square-3  lazy-image ember-view" />
+                            <img width="48" src={overlap} loading="lazy" height="48" alt='text'/>
                         </div>
 
                         <div>
@@ -156,13 +156,13 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={medium} />
+                            <img width="48" src={medium} alt='text'/>
                         </div>
 
                         <div>
@@ -177,13 +177,13 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={adobe} />
+                            <img width="48" src={adobe} alt='text'/>
                         </div>
 
                         <div>
@@ -198,13 +198,13 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>
                     <div style={styles.eachContent}>
                         <div>
-                            <img width="48" src={stack} />
+                            <img width="48" src={stack} alt='text'/>
                         </div>
 
                         <div>
@@ -219,7 +219,7 @@ function Sidebar() {
                         </div>
 
                         <div style={styles.icon}>
-                            <img src={FollowIcon} height={20} />
+                            <img src={FollowIcon} height={20} alt='text'/>
                         </div>
 
                     </div>

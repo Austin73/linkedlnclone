@@ -1,11 +1,11 @@
 import React from 'react'
 
-const styles={
-    box:{
-        width:'300px',
-        height:'60px',
-        backgroundColor:'solid grey',
-        borderRadius:'6px'
+const styles = {
+    box: {
+        width: '300px',
+        height: '60px',
+        backgroundColor: 'solid grey',
+        borderRadius: '6px'
     }
 }
 function AboutFigma() {
@@ -32,24 +32,24 @@ function AboutFigma() {
                     Born on the Web ,Figma helps  the entire products  team create ,test ,and ship better designs,faster.
                 </span>
             </div>
-            <br/>
+            <br />
             <div style={{
-                display:'flex',
-                gap:'20px',
-                justifyContent:'space-evenly',
-                marginBottom:'20px'
+                display: 'flex',
+                gap: '20px',
+                justifyContent: 'space-evenly',
+                marginBottom: '20px'
             }}>
 
                 <div style={styles.box}>
-                    <br/>
-                   <div>
-                     Website URL
-                     <br/>
-                   </div>
-                   <div>
-                        <br/>
-                       <a href=''>Figma.com</a>
-                   </div>
+                    <br />
+                    <div>
+                        Website URL
+                        <br />
+                    </div>
+                    <div>
+                        <br />
+                        <a href='https://www.figma.com/' target='_blank' rel="noopener noreferrer">Figma.com</a>
+                    </div>
                 </div>
                 <div style={styles.box}>
                     <div>
@@ -60,19 +60,19 @@ function AboutFigma() {
                         Series D
                     </div>
                     <div>
-                        <br/>
-                       <a href=''>US $50 M</a> 
+                        <br />
+                        <a href='https://techcrunch.com/2020/04/30/figma-raises-50-million-series-d-led-by-andreessen-horowitz/' target='_blank' rel="noopener noreferrer">US $50 M</a>
                     </div>
                 </div>
             </div>
-           
-           <div style={{
-               padding:'30px',
-               textAlign:'center',
-               width:'75%'
-           }}>
-              <a href=''> See All details</a>
-           </div>
+
+            <div style={{
+                padding: '30px',
+                textAlign: 'center',
+                width: '75%'
+            }}>
+                <a href='https://www.crunchbase.com/organization/figma' target='_blank' rel="noopener noreferrer"> See All details</a>
+            </div>
         </div>
     )
 }

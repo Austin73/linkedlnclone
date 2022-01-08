@@ -6,7 +6,7 @@ function Figma() {
         <div style={{ marginLeft: '1' }}>
             <div style={{
                
-                borderRadius: '4px',
+               
                 marginTop:'120px',
                 marginLeft: '70px',
                 position: 'static',
@@ -14,7 +14,7 @@ function Figma() {
                 borderRadius: '8px',
                 
             }}>
-                <img src={figmaicon} height={200} width={750} />
+                <img src={figmaicon} height={200} width={750} alt='text' />
             </div>
             <div style={{
                 backgroundColor: 'white',
@@ -46,7 +46,7 @@ function Figma() {
                     }}>Design San Francisco, California 278,257 followers</div>
 
                     <div>
-                        <a href="" ><h3>See all 661 employees on LinkedIn</h3></a>
+                        <a href="https://www.linkedin.com/feed/" target='_blank' rel="noopener noreferrer"><h3>See all 661 employees on LinkedIn</h3></a>
                     </div>
                     <div>
                         <Button variant="contained">Follow</Button>&nbsp;&nbsp;

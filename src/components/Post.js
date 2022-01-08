@@ -9,11 +9,11 @@ function Post() {
         }}>
 
 
-            <img src="postlogo.jpg" alt="postlogo" height="60px"/><span style={{fontWeight:"bold",top:"0px",float:"top"}}>KIIT School of Management (KSOM), Bhubaneswar</span>
+            <img src="postlogo.jpg" alt="postlogo" height="60px" alt='text'/><span style={{fontWeight:"bold",top:"0px",float:"top"}}>KIIT School of Management (KSOM), Bhubaneswar</span>
             <div>
                 We have the most eloquent speakers from the industry for the first-panel discussion of the 12th National Finance Conclave. The topic is: "Financial Sector Outlook: Disruptions and Accelerating Transformation"
             </div>
-            <img src="post.jpg" alt="post" height="700px"/>
+            <img src="post.jpg" alt="post" height="700px" alt='text'/>
 
 
 

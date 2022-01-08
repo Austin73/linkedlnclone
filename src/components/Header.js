@@ -26,7 +26,7 @@ function Header() {
         <div style={styles.headerContainer}>
             <div style={{ marginRight: '15px', marginLeft: '45px' }}
 
-            ><img src={linkedln} width={30} height={30} /></div>
+            ><img src={linkedln} width={30} height={30} alt='text'/></div>
             <div style={{
                 flex: '1'
             }}>
@@ -38,9 +38,9 @@ function Header() {
 
                 }} />
             </div>
-            <div style={styles.eachContainer}><img src={notification} width={30} height={25} /></div>
-            <div style={styles.eachContainer}><img src={message} width={30} height={25} /></div>
-            <div style={styles.eachContainer}><img src={profile} width={30} height={25} /></div>
+            <div style={styles.eachContainer}><img src={notification} width={30} height={25} alt='text'/></div>
+            <div style={styles.eachContainer}><img src={message} width={30} height={25} alt='text'/></div>
+            <div style={styles.eachContainer}><img src={profile} width={30} height={25} alt='text'/></div>
             <div
                 style={{
                     marginRight: '75px'
